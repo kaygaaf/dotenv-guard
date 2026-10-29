@@ -1,0 +1,7 @@
+- id: dotenv-guard
+  name: dotenv-guard
+  description: Block .env files and common secret patterns in the git index
+  entry: dotenv-guard check-staged
+  language: python
+  pass_filenames: false
+  always_run: true
