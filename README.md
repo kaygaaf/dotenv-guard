@@ -2,7 +2,7 @@
 
 Small tool that keeps secrets out of git.
 
-Blocks committing `.env` / `.env.*` files and flags common secret patterns before they land in a repo. Built after leaking a key once — once was enough.
+Blocks committing `.env` / `.env.*` files and flags common secret patterns before they land in a repo. Built after leaking a key once. Once was enough.
 
 ## Status
 
