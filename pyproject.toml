@@ -21,6 +21,8 @@ dynamic = ["version"]
 [project.urls]
 Homepage = "https://github.com/kaygaaf/dotenv-guard"
 Repository = "https://github.com/kaygaaf/dotenv-guard"
+Issues = "https://github.com/kaygaaf/dotenv-guard/issues"
+Funding = "https://ko-fi.com/kayorama"
 
 [project.scripts]
 dotenv-guard = "dotenv_guard.cli:main"
