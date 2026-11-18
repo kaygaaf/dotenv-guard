@@ -6,11 +6,19 @@ Blocks committing `.env` / `.env.*` files and flags common secret patterns befor
 
 ## Install
 
+It's not on PyPI, so install it straight from GitHub:
+
+```bash
+pipx install git+https://github.com/kaygaaf/dotenv-guard
+```
+
+Or from a checkout of this repo:
+
 ```bash
 pip install -e .
 ```
 
-That puts `dotenv-guard` on your PATH. `python -m dotenv_guard` works too.
+Either way that puts `dotenv-guard` on your PATH. `python -m dotenv_guard` works too.
 
 ## Usage
 
